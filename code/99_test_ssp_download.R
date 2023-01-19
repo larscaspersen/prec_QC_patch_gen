@@ -3,6 +3,20 @@ query <- init_cmip6_index(variable = 'tasmin', frequency = 'mon', experiment = '
 
 library(ncdf4)
 ncin <- nc_open('hurs_day_AWI-CM-1-1-MR_ssp585_r1i1p1f1_gn_20490101-20491231.nc')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print(ncin)
 
 # get longitude and latitude
